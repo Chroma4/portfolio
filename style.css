@@ -188,20 +188,23 @@ h1 {
 }
 /* footer */
 footer {
-  background-color: rgba(37, 37, 37, 0.952);
 }
-footer h1 {
-  margin-left: 100px;
-  margin-bottom: 30px;
-}
-footer div {
+.bun {
   display: flex;
-  justify-content: center;
+  margin-left: 200px;
 }
 footer ul {
   display: flex;
   list-style: none;
 }
 footer li {
-  margin: 3em;
+  margin: 1em 3em;
+  font-size: 1.5vw;
+}
+.mail {
+  height: 6vh;
+  width: 85%;
+  margin-left: 100px;
+  border: solid;
+  border-color: black;
 }
