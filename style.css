@@ -136,7 +136,40 @@ h1 {
 }
 /* ページ２ */
 .sakuhin {
-  font-size: 6vh;
+  font-size: 4vh;
   text-decoration: underline;
+  margin-left: 20px;
+  margin-bottom: 80px;
+}
+.fot ul {
+  display: flex;
+  justify-content: center;
+}
+.fot li {
+  list-style: none;
+  margin: auto;
+}
+.fot img {
+  object-fit: cover;
+  height: 40vh;
+  width: 30vw;
+}
+.fotname ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 2vw;
+}
+.fotname li {
+  list-style: none;
+  padding: 0em 5em 2em 5em;
+  margin: auto;
+  margin-bottom: 80px;
+}
+/* ページ３ */
+.shoukai {
+  font-size: 4vh;
+  text-decoration: underline;
+  margin-left: 20px;
   margin-bottom: 80px;
 }
