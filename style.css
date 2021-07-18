@@ -16,27 +16,6 @@ h1 {
   padding-top: 15px;
   padding-left: 20px;
 }
-/* ページ１ */
-.named {
-  height: 100vh;
-  background-color: blue;
-  position: relative;
-}
-.name {
-  font-size: 4em;
-  display: flex;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-}
-.named p {
-  display: flex;
-  position: absolute;
-  top: 65%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-}
 
 /*　ハンバーガーメニューボタン　*/
 .hamburger {
@@ -134,4 +113,24 @@ h1 {
     display: block;
     transform: scale(1,1);
   }
-  
+/* ページ１ */
+.named {
+  height: 100vh;
+  background-color: blue;
+  position: relative;
+}
+.name {
+  font-size: 4em;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.named p {
+  display: flex;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
