@@ -1,3 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* ヘッダー */
+h1 {
+  height: 20vh;
+  width: 100%;
+  font-size: 8vh;
+  padding-top: 15px;
+  padding-left: 20px;
+  background-color: crimson;
+}
+/* ページ１ */
+.named {
+  height: 100vh;
+  background-color: blue;
+  position: relative;
+}
+.name {
+  font-size: 4em;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.named p {
+  display: flex;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
 /*　ハンバーガーメニューボタン　*/
 .hamburger {
     display : block;
