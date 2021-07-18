@@ -118,6 +118,7 @@ h1 {
   height: 100vh;
   background-color: blue;
   position: relative;
+  margin-bottom: 20vh;
 }
 .name {
   font-size: 7vw;
@@ -132,4 +133,10 @@ h1 {
   top: 65%;
   left: 50%;
   transform: translate(-50%,-50%);
+}
+/* ページ２ */
+.sakuhin {
+  font-size: 6vh;
+  text-decoration: underline;
+  margin-bottom: 80px;
 }
