@@ -3,13 +3,18 @@
   padding: 0;
 }
 /* ヘッダー */
-h1 {
-  height: 20vh;
+header {
+  position: fixed;
   width: 100%;
-  font-size: 8vh;
+  height: 80px;
+  z-index: 2;
+  background-color: crimson;
+}
+h1 {
+  width: 100%;
+  font-size: 30px;
   padding-top: 15px;
   padding-left: 20px;
-  background-color: crimson;
 }
 /* ページ１ */
 .named {
@@ -28,7 +33,7 @@ h1 {
 .named p {
   display: flex;
   position: absolute;
-  top: 60%;
+  top: 65%;
   left: 50%;
   transform: translate(-50%,-50%);
 }
