@@ -1,12 +1,22 @@
 .mainfot {
-    text-align: center;
+    margin: 5vh auto;
+    height: 60vh;
+    width: 50vw;
 }
 .mainfot img {
+    height: 100%;
+    width: 100%;
     object-fit: cover;
+}
+.fot {
+    position: absolute;
+    top: 35.5vh;
+    left: 82vw;
+    transform: translate(-50%,-50%);
 }
 .fot ul {
     list-style: none;
 }
 .fot img {
-    height: 20vh;
+    height: 19.5vh;
 }
