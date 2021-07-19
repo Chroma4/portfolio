@@ -212,15 +212,19 @@ footer li {
   margin-left: 2vw;
 }
 .mail p {
-  font-size: 2vw;
+  font-size: 1.8vw;
   margin-left: 20vw;
+  margin-bottom: 2vh;
 }
 nav ul {
   list-style: none;
+  display: flex;
 }
 .twittericon {
   color: black;
+  margin-left: 2vw;
 }
 .instagramicon{
   color: black;
+  margin-left: -7vw;
 }
