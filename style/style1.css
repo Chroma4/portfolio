@@ -1,0 +1,12 @@
+.mainfot {
+    text-align: center;
+}
+.mainfot img {
+    object-fit: cover;
+}
+.fot ul {
+    list-style: none;
+}
+.fot img {
+    height: 20vh;
+}
