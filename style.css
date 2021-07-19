@@ -184,7 +184,7 @@ h1 {
   font-size: 4vh;
   text-decoration: underline;
   margin-left: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 /* footer */
 footer {
@@ -211,4 +211,9 @@ footer li {
 .mailicon {
   color: black;
   justify-content: center;
+  margin-left: 2vw;
+}
+.mail p {
+  font-size: 2vw;
+  margin-left: 20vw;
 }
