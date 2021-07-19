@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    margin-left: 4vw;
+}
 .mainfot {
     margin: 5vh auto;
     height: 60vh;
@@ -10,7 +17,7 @@
 }
 .fot {
     position: absolute;
-    top: 35.5vh;
+    top: 41.5vh;
     left: 82vw;
     transform: translate(-50%,-50%);
 }
@@ -19,4 +26,8 @@
 }
 .fot img {
     height: 19.5vh;
+}
+.setumei {
+    text-align: center;
+    font-size: 3vh;
 }
