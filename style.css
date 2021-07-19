@@ -187,8 +187,6 @@ h1 {
   margin-bottom: 20px;
 }
 /* footer */
-footer {
-}
 .bun {
   margin-left: 10vw;
 }
@@ -216,4 +214,13 @@ footer li {
 .mail p {
   font-size: 2vw;
   margin-left: 20vw;
+}
+nav ul {
+  list-style: none;
+}
+.twittericon {
+  color: black;
+}
+.instagramicon{
+  color: black;
 }
