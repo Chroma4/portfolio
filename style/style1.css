@@ -1,12 +1,14 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: rgb(56, 56, 56);
 }
 h1 {
-    margin-left: 4vw;
+    padding-left: 4vw;
     margin-bottom: 10vh;
     color: white;
+    border-bottom: solid;
+    border-color: white;
 }
 .menu {
     display: inline-block;
@@ -14,6 +16,8 @@ h1 {
     margin-left: 3vw;
     height: 60vh;
     width: 15vw;
+    border: solid;
+    border-color: white;
 }
 .menu ul {
     text-align: center;
@@ -41,6 +45,8 @@ h1 {
     height: 100%;
     width: 100%;
     object-fit: cover;
+    border: solid;
+    border-color: rgb(108, 106, 255);;
 }
 .fot {
     display: inline-block;
@@ -50,7 +56,11 @@ h1 {
     list-style: none;
 }
 .fot img {
-    height: 19.5vh;
+    height: 19vh;
+    width: 12vw;
+    object-fit: cover;
+    border: solid;
+    border-color: rgb(108, 106, 255);
 }
 .setumei {
     text-align: center;
