@@ -8,7 +8,10 @@ header {
   width: 100%;
   height: 80px;
   z-index: 2;
-  background-color: crimson;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  border-bottom: solid;
+  border-color: white;
 }
 h1 {
   width: 100%;
@@ -85,20 +88,25 @@ h1 {
   }
   
   nav.globalMenuSp ul {
-    margin: 15% auto;
+    margin: 7vh auto;
     padding: 0;
     width: 100%;
   }
   
   nav.globalMenuSp ul li {
     list-style-type: none;
-    padding: 5% 0;
+    padding: 8vh 0;
     width: 100%;
     transition: .4s all;
   }
   nav.globalMenuSp ul li:hover{
     background :#ddd;
+    color: #000;
   }
+  nav.globalMenuSp ul li a:hover{
+    color: #000;
+  }
+  
   
   nav.globalMenuSp ul li a {
     display: block;
@@ -113,14 +121,11 @@ h1 {
     display: block;
     transform: scale(1,1);
   }
-/* ページ１ */
 
 /* 背景アニメーション */ 
-body { 
-  margin:0; 
-  font:normal 75% Arial, Helvetica, sans-serif; 
+canvas{ 
+  display: block; 
 } 
-canvas{ display: block; vertical-align: bottom; } 
 /* ---- particles.js container ---- */ 
 #particles-js{ 
   position:absolute; 
@@ -159,15 +164,10 @@ canvas{ display: block; vertical-align: bottom; }
   border-radius: 3px 3px 0 0; 
   overflow: hidden; 
 } 
-.count-particles{ 
-  border-radius: 0 0 3px 3px; 
-}
-
-
 .named {
   height: 100vh;
-  position: relative;
-  margin-bottom: 20vh;
+  padding-bottom: 20vh;
+  background-color: rgba(0, 0, 0);
 }
 .name {
   font-size: 7vw;
@@ -189,8 +189,8 @@ canvas{ display: block; vertical-align: bottom; }
 .sakuhin {
   font-size: 4vh;
   text-decoration: underline;
-  margin-left: 20px;
-  margin-bottom: 80px;
+  padding-left: 20px;
+  padding-bottom: 80px;
 }
 .fot ul {
   display: flex;
@@ -200,46 +200,62 @@ canvas{ display: block; vertical-align: bottom; }
   list-style: none;
   margin: auto;
 }
+.fot a {
+  color: white;
+}
 .fot img {
   object-fit: cover;
   height: 40vh;
   width: 30vw;
 }
+.fotname {
+  height: 5vh;
+  color: rgb(0, 0, 0);
+  padding-bottom: 20vh;
+}
 .fotname ul {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  padding-top: 50px;
   font-size: 2vw;
 }
 .fotname li {
   list-style: none;
-  padding: 0em 5em 2em 5em;
-  margin: auto;
+  padding: 1em 5em 1em 5em;
+  margin: 0 auto;
   margin-bottom: 80px;
 }
 /* ページ３ */
 .shoukai {
   font-size: 4vh;
   text-decoration: underline;
-  margin-left: 20px;
-  margin-bottom: 80px;
+  padding-left: 20px;
+  padding-bottom: 80px;
+  background-color: rgba(0, 0, 0);
+  color: white;
 }
 .shoukaibun {
   height: 50vh;
   width: 100%;
   font-size: 2vw;
   text-align: center;
+  background-color: rgba(0, 0, 0);
+  color: white;
 }
 /* ページ４ */
 .renraku {
   font-size: 4vh;
   text-decoration: underline;
-  margin-left: 20px;
-  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  background-color: black;
+  color: white;
 }
 /* footer */
 .bun {
-  margin-left: 10vw;
+  padding-left: 10vw;
+  background-color: black;
+  color: white;
 }
 footer ul {
   display: flex;
@@ -252,30 +268,32 @@ footer li {
 .mail {
   display: flex;
   height: 4vh;
-  width: 80%;
-  margin-left: 10vw;
+  background-color: black;
   border: solid;
-  border-color: black;
+  border-color: rgb(255, 255, 255);
+  color: white;
 }
 .mailicon {
-  color: black;
+  color: rgb(255, 255, 255);
   justify-content: center;
-  margin-left: 2vw;
+  padding-left: 25vw;
 }
 .mail p {
   font-size: 1.8vw;
   margin-left: 20vw;
   margin-bottom: 2vh;
 }
-nav ul {
+footer nav ul {
   list-style: none;
   display: flex;
+  background-color: black;
 }
 .twittericon {
-  color: black;
+  color: rgb(128, 236, 255);
   margin-left: 2vw;
 }
 .instagramicon{
-  color: black;
+  color: rgb(255, 146, 96);
   margin-left: -7vw;
 }
+
